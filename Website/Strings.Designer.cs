@@ -70,6 +70,15 @@ namespace NuGetGallery {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to &apos;{0}&apos; cannot be null or empty.
+        /// </summary>
+        public static string ArgumentCannotBeNullOrEmpty {
+            get {
+                return ResourceManager.GetString("ArgumentCannotBeNullOrEmpty", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to The current password you provided is incorrect..
         /// </summary>
         public static string CurrentPasswordIncorrect {
@@ -174,6 +183,15 @@ namespace NuGetGallery {
         public static string SuccessfullyUploadedPackage {
             get {
                 return ResourceManager.GetString("SuccessfullyUploadedPackage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The type &apos;{0}&apos; is not a migration type..
+        /// </summary>
+        public static string TypeIsNotAMigration {
+            get {
+                return ResourceManager.GetString("TypeIsNotAMigration", resourceCulture);
             }
         }
         
